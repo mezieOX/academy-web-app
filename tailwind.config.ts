@@ -14,6 +14,14 @@ const config: Config = {
           DEFAULT: "#08080880",
           light: "#FAFAFA",
         },
+        red: {
+          DEFAULT: "#FF3C31",
+          light: "#FFF5F5",
+        },
+        green: {
+          DEFAULT: "#009E68",
+          light: "#EBFAF5",
+        },
       },
     },
   },
