@@ -8,7 +8,7 @@ const CourseOption = () => {
       <div className="overflow-scroll scrollbar-hide  flex gap-[16px] items-center ">
         {courseOptions.map(({ id, text, icon }) => (
           <div
-            className={`bg-gray-100/70 w-max rounded-lg flex items-center cursor-pointer ${
+            className={`bg-gray-100/70 w-max rounded-lg flex items-center capitalize cursor-pointer ${
               (text && "px-[22px]") || (icon && "ml-5 first:ml-0")
             } ${icon === "Code" && "bg-green-light"} ${
               icon === "Video" && "bg-red-light"

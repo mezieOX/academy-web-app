@@ -5,5 +5,17 @@ import Bell from "./Bell";
 import Code from "./Code";
 import Course from "./Course";
 import Video from "./Video";
+import HomeBooked from "./HomeBooked";
+import HomeArrow from "./HomeArrow";
 
-export { Logo, ArrowDown, Search, Bell, Code, Course, Video };
+export {
+  Logo,
+  ArrowDown,
+  Search,
+  Bell,
+  Code,
+  Course,
+  Video,
+  HomeArrow,
+  HomeBooked,
+};

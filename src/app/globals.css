@@ -18,3 +18,7 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.banner__text {
+  color: linear-gradient(270deg, #b176f2 68.3%, #fac1f1 100%);
+}
