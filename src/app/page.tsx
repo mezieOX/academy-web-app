@@ -1,6 +1,10 @@
 import MainLayout from "@/components/layout/mainLayout";
-import { Banner, CourseOption, NewCourse } from "@/components/common/Home";
-import TopCourse from "@/components/common/Home/topCourses/TopCourses";
+import {
+  Banner,
+  CourseOption,
+  Instructors,
+  NewCourse,
+} from "@/components/common/Home";
 
 export default function Home() {
   return (
@@ -8,9 +12,10 @@ export default function Home() {
       <CourseOption />
       <Banner />
       <NewCourse />
-      <TopCourse />
-      {/* <Instructors />
+      <Instructors />
+      {/* 
       <YourCourse />
+      <TopCourse />
       <NewsLetter /> */}
     </MainLayout>
   );

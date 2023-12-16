@@ -1,38 +1,34 @@
-import { Book, Cup, Score, UserIcon } from "@/assets/icons";
-import { Button } from "@/components/global/Button";
-import { FigmaImg } from "@/constant/imgs";
-import { cardData } from "@/data";
-import { ICard } from "@/interfaces";
 import Image from "next/image";
+
+import { instructorData } from "@/data";
 
 const InstructorsNameAndTitle = () => {
   return (
     <div>
-      <div className="max-w-[33rem] mx-auto mb-20 grid grid-cols-3 gap-4">
-        {cardData.map(({ id, title }: any) => (
+      <div className="min-w-[33rem] mx-auto -mb-40 grid grid-cols-3 gap-4">
+        {instructorData.map(({ id, image, name, job }: any) => (
           <div
             className="bg-gray-medium p-1.5 rounded-lg cursor-pointer border border-gray-200/40"
             key={id}
           >
-            <div className="relative w-full h-[10.9rem] rounded-lg">
+            <div className="relative w-full h-[7rem] rounded-lg">
               <Image
-                src={FigmaImg}
-                alt="title"
+                src={image}
+                alt={name}
                 layout="fill"
                 className="rounded-lg"
               />
             </div>
             <div>
-              <div className="flex items-center justify-between  my-[14px]">
-                <p className="flex items-center gap-1.5 font-semibold text-[8px] text-black/70">
+              <div className="flex items-center justify-between  mt-[20px] mb-[9px]">
+                <p className="flex items-center gap-1.5 -pb-2 font-semibold text-[8px] text-black/70">
                   {" "}
-                  {"Student : 99"}
+                  {name}
                 </p>
-                <p className="flex items-center gap-1.5 font-semibold text-[8px] text-black/70">
+                <p className="flex items-center gap-1.5 -pb-2  font-medium text-[8px] text-gray">
                   {" "}
-                  {"Student : 99"}
+                  {job}
                 </p>
-                <p className="flex items-center gap-1 font-semibold text-[8px] text-black/70"></p>
               </div>
             </div>
           </div>

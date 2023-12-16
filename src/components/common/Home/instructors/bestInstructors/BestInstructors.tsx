@@ -13,7 +13,7 @@ const BestInstructors = () => {
         At the Academy, we strive to bring together the best professors for the
         best courses
       </p>
-      <div className="absolute bottom-5 -right-0">
+      <div className="absolute bottom-4 -right-0">
         <Image src={Advertising} width={80} height={80} alt={"instructors"} />
       </div>
       <div className="absolute right-[60px] -bottom-[10px]">
