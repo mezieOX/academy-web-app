@@ -1,8 +1,9 @@
 import { FC } from "react";
 
+import { IHeader } from "@/interfaces";
 import Header from "./Header/Header";
 
-const MainLayout: FC<any> = ({ children, className }) => {
+const MainLayout: FC<IHeader> = ({ children, className }) => {
   return (
     <>
       <div className={`${className}  z-50`}>

@@ -13,6 +13,8 @@ const config: Config = {
         gray: {
           DEFAULT: "#08080880",
           light: "#FAFAFA",
+          lighter: "#3E3232BF",
+          medium: "#FAFAFA",
         },
         red: {
           DEFAULT: "#FF3C31",

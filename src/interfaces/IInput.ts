@@ -4,4 +4,6 @@ export interface IInput {
   placeholder?: string;
   labelClassName?: string;
   type?: string;
+  inputButton?: boolean;
+  containerClassName?: string;
 }

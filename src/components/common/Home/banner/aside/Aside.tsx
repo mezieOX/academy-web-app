@@ -3,7 +3,7 @@ import { HomeArrow, HomeBooked } from "@/assets/icons";
 
 const Aside = () => {
   return (
-    <div className="text-[26.5px] flex flex-col flex-[50%] capitalize font-extrabold mt-[7rem] !leading-[49px] ">
+    <div className="text-[26.5px] flex flex-col flex-[50%] xl:flex-[60%] capitalize font-extrabold mt-[7rem] !leading-[49px] ">
       <div className="flex">
         <div className="-mt-1 mr-1">🙌</div> {"Hello friends"}
       </div>
