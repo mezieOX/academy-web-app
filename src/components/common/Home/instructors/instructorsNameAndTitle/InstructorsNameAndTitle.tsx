@@ -1,12 +1,13 @@
 import Image from "next/image";
 
 import { instructorData } from "@/data";
+import { IInstructors } from "@/interfaces";
 
 const InstructorsNameAndTitle = () => {
   return (
     <div>
       <div className="min-w-[33rem] mx-auto -mb-40 grid grid-cols-3 gap-4">
-        {instructorData.map(({ id, image, name, job }: any) => (
+        {instructorData.map(({ id, image, name, job }: IInstructors) => (
           <div
             className="bg-gray-medium p-1.5 rounded-lg cursor-pointer border border-gray-200/40"
             key={id}
