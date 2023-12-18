@@ -1,5 +1,5 @@
-import { cardData } from "@/data";
 import { BookCard } from "@/components/global/Card";
+import { cardData } from "@/data";
 import NewCourseTab from "./newCourseTab/newCourseTab";
 
 const YourCourse = () => {
@@ -8,7 +8,7 @@ const YourCourse = () => {
       <div className="mx-auto relative flex flex-col mb-60 items-center w-full mt-4">
         <NewCourseTab />
       </div>
-      <BookCard cardData={cardData} />
+      <BookCard books={cardData} />
     </>
   );
 };

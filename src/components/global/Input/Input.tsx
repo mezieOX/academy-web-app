@@ -8,6 +8,7 @@ const Input: React.FC<IInput> = ({
   type = "text",
   inputButton = false,
   containerClassName,
+  onChange,
 }) => {
   return (
     <div
@@ -24,6 +25,7 @@ const Input: React.FC<IInput> = ({
         type={type}
         className={`placeholder:text-[9px] bg-transparent flex-grow outline-0 border-0 focus:outline-none focus:border-none pr-2 ${className} text-[9px]`}
         placeholder={placeholder}
+        onChange={onChange}
       />
       <Search className="fill-current w-4 cursor-pointer" />
     </div>

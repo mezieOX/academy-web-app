@@ -3,4 +3,5 @@ export interface IButton {
   title?: string;
   icon?: boolean;
   buttonClassName?: string;
+  onClick?: (...any: any[]) => any;
 }

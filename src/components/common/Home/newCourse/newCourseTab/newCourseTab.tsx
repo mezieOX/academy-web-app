@@ -1,7 +1,11 @@
 import { Circle, MoreIcon, NewCourseArrow } from "@/assets/icons";
 import { Input } from "@/components/global/Input";
 
-const NewCourseTab = () => {
+const NewCourseTab = ({
+  setKeyword,
+}: {
+  setKeyword: (...any: any[]) => any;
+}) => {
   return (
     <>
       <h1 className="text-2xl max-w-[67rem] text-dark font-bold leading-[46px] capitalize text-center">
@@ -10,7 +14,11 @@ const NewCourseTab = () => {
       </h1>
       <div className="flex items-center gap-3 flex-grow my-6 relative">
         <NewCourseArrow className="absolute bottom-7 -right-[4.3rem] !h-[40px] !w-[78px]" />
-        <Input inputButton={true} containerClassName="!h-[46px] !w-[540px]" />
+        <Input
+          inputButton={true}
+          onChange={(value) => setKeyword(value.target.value)}
+          containerClassName="!h-[46px] !w-[540px]"
+        />
         <p className="text-[10px] text-gray/70 font-medium capitalize">
           {"Or view the following courses..."}
         </p>

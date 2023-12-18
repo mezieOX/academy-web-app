@@ -6,4 +6,5 @@ export interface IInput {
   type?: string;
   inputButton?: boolean;
   containerClassName?: string;
+  onChange?: (...value: any[]) => any;
 }
