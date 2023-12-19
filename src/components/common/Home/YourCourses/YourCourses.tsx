@@ -1,14 +1,13 @@
-import { BookCard } from "@/components/global/Card";
-import { cardData } from "@/data";
-import NewCourseTab from "./newCourseTab/newCourseTab";
+import YourCourseHeader from "./yourCourseHeader /YourHeader";
+import YourCourseCard from "./yourCourseCard/yourCourseCard";
 
 const YourCourse = () => {
   return (
     <>
-      <div className="mx-auto relative flex flex-col mb-60 items-center w-full mt-4">
-        <NewCourseTab />
+      <div className="mx-auto relative flex flex-col mb-60 items-center w-full -mt-[5.4rem]">
+        <YourCourseHeader />
       </div>
-      <BookCard books={cardData} />
+      <YourCourseCard />
     </>
   );
 };

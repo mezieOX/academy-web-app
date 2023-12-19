@@ -10,6 +10,11 @@ import Instructor3 from "../assets/img/img3.png";
 import Instructor4 from "../assets/img/img4.png";
 import Instructor5 from "../assets/img/img5.png";
 import Instructor6 from "../assets/img/img6.png";
+import Points from "../assets/img/points.png";
+import YourCourse1 from "../assets/img/c1.png";
+import YourCourse2 from "../assets/img/c2.png";
+import YourCourse3 from "../assets/img/c3.png";
+import YourCourse4 from "../assets/img/c4.png";
 
 export {
   userProfile,
@@ -24,4 +29,9 @@ export {
   Instructor4,
   Instructor5,
   Instructor6,
+  Points,
+  YourCourse1,
+  YourCourse2,
+  YourCourse3,
+  YourCourse4,
 };

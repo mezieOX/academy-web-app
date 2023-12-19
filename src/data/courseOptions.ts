@@ -1,6 +1,9 @@
+import { Instructor1 } from "@/constant/imgs";
+
 export const courseOptions = [
   {
     id: 1,
+    image: Instructor1,
     icon: "Code",
   },
   {

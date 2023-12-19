@@ -5,6 +5,8 @@ import {
   CourseOption,
   Instructors,
   NewCourse,
+  NewsLetter,
+  YourCourse,
 } from "@/components/common/Home";
 import MainLayout from "@/components/layout/mainLayout";
 import { Provider } from "react-redux";
@@ -18,10 +20,10 @@ export default function Home() {
         <Banner />
         <NewCourse />
         <Instructors />
-        {/* 
-      <YourCourse />
-      <TopCourse />
-      <NewsLetter /> */}
+        <YourCourse />
+        <NewsLetter />
+
+        {/* <TopCourse /> */}
       </MainLayout>
     </Provider>
   );

@@ -1,6 +1,6 @@
 import { BookCard } from "@/components/global/Card";
 import { cardData } from "@/data";
-import NewCourseTab from "../YourCourses/newCourseTab/newCourseTab";
+import NewCourseTab from "../YourCourses/yourCourseHeader /YourHeader";
 
 const TopCourse = () => {
   return (

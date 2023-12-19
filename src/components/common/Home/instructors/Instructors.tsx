@@ -19,7 +19,7 @@ const Instructors = () => {
               />
             </div>
           </div>
-          <div className="">
+          <div>
             <InstructorsNameAndTitle />
           </div>
         </div>
