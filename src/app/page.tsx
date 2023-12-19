@@ -11,6 +11,7 @@ import {
   YourCourse,
 } from "@/components/common/Home";
 import MainLayout from "@/components/layout/mainLayout";
+import TopCourse from "@/components/common/Home/topCourses/TopCourses";
 
 export default function Home() {
   return (
@@ -22,8 +23,7 @@ export default function Home() {
         <Instructors />
         <YourCourse />
         <NewsLetter />
-
-        {/* <TopCourse /> */}
+        <TopCourse />
       </MainLayout>
     </Provider>
   );

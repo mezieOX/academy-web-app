@@ -15,6 +15,10 @@ import YourCourse1 from "../assets/img/c1.png";
 import YourCourse2 from "../assets/img/c2.png";
 import YourCourse3 from "../assets/img/c3.png";
 import YourCourse4 from "../assets/img/c4.png";
+import TopCourse1 from "../assets/img/t1.png";
+import TopCourse2 from "../assets/img/t2.png";
+import TopCourse3 from "../assets/img/t3.png";
+import TopCourse4 from "../assets/img/t4.png";
 
 export {
   userProfile,
@@ -34,4 +38,8 @@ export {
   YourCourse2,
   YourCourse3,
   YourCourse4,
+  TopCourse1,
+  TopCourse2,
+  TopCourse3,
+  TopCourse4,
 };
