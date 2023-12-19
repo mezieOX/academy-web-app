@@ -1,5 +1,7 @@
 "use client";
 
+import { Provider } from "react-redux";
+import { store } from "../components/reduxToolkit/store";
 import {
   Banner,
   CourseOption,
@@ -9,8 +11,6 @@ import {
   YourCourse,
 } from "@/components/common/Home";
 import MainLayout from "@/components/layout/mainLayout";
-import { Provider } from "react-redux";
-import { store } from "../components/reduxToolkit/store";
 
 export default function Home() {
   return (

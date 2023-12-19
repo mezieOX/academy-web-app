@@ -24,6 +24,9 @@ const config: Config = {
           DEFAULT: "#009E68",
           light: "#EBFAF5",
         },
+        blue: {
+          DEFAULT: "#5A69F2",
+        },
       },
     },
   },

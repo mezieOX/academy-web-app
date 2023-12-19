@@ -7,4 +7,5 @@ export interface IInput {
   inputButton?: boolean;
   containerClassName?: string;
   onChange?: (...value: any[]) => any;
+  inputButtonRight?: boolean;
 }

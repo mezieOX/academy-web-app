@@ -9,6 +9,7 @@ const Input: React.FC<IInput> = ({
   inputButton = false,
   containerClassName,
   onChange,
+  inputButtonRight = false,
 }) => {
   return (
     <div
@@ -16,7 +17,7 @@ const Input: React.FC<IInput> = ({
     >
       {inputButton && (
         <Button
-          className="!h-[29px] mr-[13px] hover:bg-primary duration-75 transition-all"
+          className="!h-[29px] mr-[13px] hover:bg-primary duration-75 transition-all cursor-pointer"
           title="Categories"
           icon={false}
         />
@@ -27,7 +28,15 @@ const Input: React.FC<IInput> = ({
         placeholder={placeholder}
         onChange={onChange}
       />
-      <Search className="fill-current w-4 cursor-pointer" />
+      {inputButtonRight ? (
+        <Button
+          className="!h-[29px] mr-[2px] hover:bg-primary duration-75 transition-all cursor-pointer"
+          title="SUBMIT"
+          icon={false}
+        />
+      ) : (
+        <Search className="fill-current w-4 cursor-pointer" />
+      )}
     </div>
   );
 };
