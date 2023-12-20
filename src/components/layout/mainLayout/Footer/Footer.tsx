@@ -104,8 +104,8 @@ const Footer = () => {
               <div className="bg-gray-bolder capitalize p-[14px] rounded">
                 <p className="text-black font-bold">cassia</p>
                 <p className="w-max text-gray">
-                  Take a rest, i'll be cheer up you again in 2 next game go go
-                  go
+                  Take a rest, i&#39;ll be cheer up you again in 2 next game go
+                  go go
                 </p>
               </div>
             </div>
