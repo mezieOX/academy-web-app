@@ -19,6 +19,7 @@ import TopCourse1 from "../assets/img/t1.png";
 import TopCourse2 from "../assets/img/t2.png";
 import TopCourse3 from "../assets/img/t3.png";
 import TopCourse4 from "../assets/img/t4.png";
+import FooterBanner from "../assets/img/footer-banner.png";
 
 export {
   userProfile,
@@ -42,4 +43,5 @@ export {
   TopCourse2,
   TopCourse3,
   TopCourse4,
+  FooterBanner,
 };

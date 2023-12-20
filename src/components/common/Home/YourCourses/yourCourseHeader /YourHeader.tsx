@@ -3,7 +3,7 @@ import ArrowRight from "@/assets/icons/ArrowRight";
 
 const YourCourseHeader = () => {
   return (
-    <div className="flex mt-20 min-w-[67rem] max-w-[67rem] mx-auto ">
+    <div className="flex mt-20 min-w-[67rem] max-w-[67rem] mx-auto -mb-20">
       <div className="flex items-center gap-1 mt-[7px] flex-grow">
         <Circle className="fill-current !w-[3px] -mt-px" />
         <h3 className="text-sm uppercase font-medium ">{"top courses"}</h3>

@@ -15,6 +15,8 @@ const config: Config = {
           light: "#FAFAFA",
           lighter: "#3E3232BF",
           medium: "#FAFAFA",
+          bold: "#F5F2FA",
+          bolder: "#F5F5F5",
         },
         red: {
           DEFAULT: "#FF3C31",
